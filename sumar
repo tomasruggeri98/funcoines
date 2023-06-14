@@ -1,0 +1,14 @@
+
+Console.WriteLine("ingresar valor1");
+int a = int.Parse(Console.ReadLine());
+Console.WriteLine("ingresar valor2");
+int b = int.Parse(Console.ReadLine());
+
+
+int Sumar(int a, int b)
+{
+    return a + b;
+}
+
+int resultado = Sumar(a, b);
+Console.WriteLine("la suma es :" + resultado);
