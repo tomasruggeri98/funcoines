@@ -1,0 +1,12 @@
+Console.WriteLine("ingresar numero para conseguir raiz cuadrada:");
+double numero = double.Parse(Console.ReadLine());
+
+double raizCuadrada = CalcularRaizCuadrada(numero);
+
+Console.WriteLine("La raíz cuadrada de " + numero + " es: " + raizCuadrada);
+
+
+double CalcularRaizCuadrada(double numero)
+{
+    return Math.Sqrt(numero);
+}
